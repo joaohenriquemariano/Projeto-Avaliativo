@@ -1,0 +1,13 @@
+	h1{
+		border: 2px solid rgb(219, 216, 216);
+		text-align: center;
+	}
+	p{
+		font-family: cursive;
+	}
+	form{
+		text-align: center;
+		padding: 1em;
+  		border: 1px solid #CCC;
+    	border-radius: 1em;
+    }

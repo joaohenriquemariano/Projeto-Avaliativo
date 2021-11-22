@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>formulário</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+	<script src="controller.js"></script>
+</head>
+<body>
+	<h1 style="border-left: 6px solid red;">Formulário</h1>
+	<a href=".index.html">Inicio</a>
+	<form method="post">
+		<p>nome</p>
+		<input type="text" placeholder="Seu nome" id="nome">
+		<br>
+		<p>email</p>
+		<input type="email" placeholder="Digite o seu e-mail aqui" id="email">
+		<br>
+		<p>Celular</p>
+		<input type="text" placeholder="(00)00000-0000" id="celular">
+		<br>
+		<p>CPF</p>
+		<input type="text" placeholder="Informe o seu CPF" id="CPF">
+		<p>Gênero</p>
+		<input type="radio" name="Gênero1" value="Masculino">Masculino<br>
+		<input type="radio" name="Gênero1" value="Feminino">Feminino<br>
+		<p>Data de Nascimento</p>
+		<input type="Date" name="Nascimento" placeholder="Sua data de Nascimento" id="Data de Nascimento">
+		<p>Senha</p>
+		<input type="password" name="Senha" placeholder="Digite sua Senha" id="Senha">
+		<br>
+		<p>CEP</p>
+		<input type="CEP" placeholder="Seu CEP" id="CEP">
+		<br>
+		<p>Endereço</p>
+		<input type="address" placeholder="Seu Endereço" id="Endereço">
+		<br>
+		<p>Número</p>
+		<input type="Numero" placeholder="Seu numero" id="Numero">
+		<br>
+		<p>Complemento</p>
+		<input type="Complemento" placeholder="Seu complemento" id="Complemento">
+		<br>
+		<p>Bairro</p>
+		<input type="address" placeholder="Seu bairro" id="Bairro">
+		<br>
+		<p>Cidade</p>
+		<input type="city" placeholder="Sua cidade" id="Cidade">
+		<br>
+		<p>Estado</p>
+		<input type="state" placeholder="Seu estado" id="Estado">
+		<br>
+		<p>Ponto de Referência</p>
+		<input type="Ponto" placeholder="Ponto de Referência" id="Ponto de Referência">
+		<br>
+		<br> 
+		<button onclick="verificar()">Enviar</button> 
+		<br> 
+	</form>	
+</body>
+</html>
